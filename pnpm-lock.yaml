@@ -29,7 +29,7 @@ specifiers:
   del-cli: ^4.0.1
   eslint: 8.15.0
   eslint-config-prettier: ^8.3.0
-  eslint-config-standard: ^16.0.3
+  eslint-config-standard: ^17.0.0
   eslint-loader: ^4.0.2
   eslint-plugin-import: ^2.25.4
   eslint-plugin-node: ^11.1.0
@@ -82,7 +82,7 @@ devDependencies:
   del-cli: 4.0.1
   eslint: 8.15.0
   eslint-config-prettier: 8.5.0_eslint@8.15.0
-  eslint-config-standard: 16.0.3_80da2c36907dd9045e5a30ed2aab8d65
+  eslint-config-standard: 17.0.0_42076eef00a0d813c2e03e67072d3519
   eslint-loader: 4.0.2_eslint@8.15.0
   eslint-plugin-import: 2.26.0_eslint@8.15.0
   eslint-plugin-node: 11.1.0_eslint@8.15.0
@@ -6031,6 +6031,7 @@ packages:
 
   /bindings/1.5.0:
     resolution: {integrity: sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==}
+    requiresBuild: true
     dependencies:
       file-uri-to-path: 1.0.0
     dev: true
@@ -8190,17 +8191,16 @@ packages:
       eslint: 8.15.0
     dev: true
 
-  /eslint-config-standard/16.0.3_80da2c36907dd9045e5a30ed2aab8d65:
-    resolution: {integrity: sha512-x4fmJL5hGqNJKGHSjnLdgA6U6h1YW/G2dW9fA+cyVur4SK6lyue8+UgNKWlZtUDTXvgKDD/Oa3GQjmB5kjtVvg==}
+  /eslint-config-standard/17.0.0_42076eef00a0d813c2e03e67072d3519:
+    resolution: {integrity: sha512-/2ks1GKyqSOkH7JFvXJicu0iMpoojkwB+f5Du/1SC0PtBL+s8v30k9njRZ21pm2drKYm2342jFnGWzttxPmZVg==}
     peerDependencies:
-      eslint: ^7.12.1
-      eslint-plugin-import: ^2.22.1
-      eslint-plugin-node: ^11.1.0
-      eslint-plugin-promise: ^4.2.1 || ^5.0.0
+      eslint: ^8.0.1
+      eslint-plugin-import: ^2.25.2
+      eslint-plugin-n: ^15.0.0
+      eslint-plugin-promise: ^6.0.0
     dependencies:
       eslint: 8.15.0
       eslint-plugin-import: 2.26.0_eslint@8.15.0
-      eslint-plugin-node: 11.1.0_eslint@8.15.0
       eslint-plugin-promise: 6.0.0_eslint@8.15.0
     dev: true
 
@@ -8842,6 +8842,7 @@ packages:
 
   /file-uri-to-path/1.0.0:
     resolution: {integrity: sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==}
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -11924,6 +11925,7 @@ packages:
 
   /nan/2.15.0:
     resolution: {integrity: sha512-8ZtvEnA2c5aYCZYd1cvgdnU6cqwixRoYg70xPLWUws5ORTa/lnw+u4amixRS/Ac5U5mQVgp9pnlSUnbNWFaWZQ==}
+    requiresBuild: true
     dev: true
     optional: true
 
